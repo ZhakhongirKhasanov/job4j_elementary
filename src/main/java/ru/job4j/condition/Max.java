@@ -6,4 +6,4 @@ public class Max {
         result = right;
         return result;
     }
-}
+}ff
