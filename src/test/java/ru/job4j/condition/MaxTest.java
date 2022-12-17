@@ -18,7 +18,7 @@ public class MaxTest {
     public void whenMax7To3Then7() {
         int left = 7;
         int right = 3;
-        int result = Max.max(right, left);
+        int result = Max.max(left, right);
         int expected = 7;
         assertThat(result).isEqualTo(expected);
     }
