@@ -14,7 +14,6 @@ public class SwitchArrayTest {
         int[] expected = {4, 2, 3, 1};
         assertThat(result).isEqualTo(expected);
     }
-<<<<<<< HEAD
 
     @Test
     public void whenSwap1To2() {
@@ -35,6 +34,4 @@ public class SwitchArrayTest {
         int[] expected = {13, 37, 3, 22};
         assertThat(result).isEqualTo(expected);
     }
-=======
->>>>>>> origin/master
 }
