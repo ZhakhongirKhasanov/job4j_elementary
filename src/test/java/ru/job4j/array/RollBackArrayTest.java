@@ -31,7 +31,7 @@ public class RollBackArrayTest {
     @Test
     public void whenTheSame() {
         int[] input = new int[] {1, 1, 1, 1};
-        int[] expected = new int[] {1, 1, 1, 2};
+        int[] expected = new int[] {1, 1, 1, 1};
         int[] result = RollBackArray.rollback(input);
         assertThat(result).containsExactly(expected);
     }
