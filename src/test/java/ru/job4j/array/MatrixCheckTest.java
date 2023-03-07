@@ -1,6 +1,8 @@
 package ru.job4j.array;
 
-public class MatrixCheck {
+import org.junit.jupiter.api.Test;
+import static org.assertj.core.api.Assertions.assertThat;
+public class MatrixCheckTest {
     public static boolean monoHorizontal(char[][] board, int row) {
         boolean result = true;
         for (int x = 0; x < board[row].length; x++) {
